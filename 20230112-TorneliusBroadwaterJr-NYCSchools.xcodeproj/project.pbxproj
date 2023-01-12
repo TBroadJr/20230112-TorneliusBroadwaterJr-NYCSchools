@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F65849102970741B00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658490F2970741B00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift */; };
-		F65849122970741B00BCE68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849112970741B00BCE68A /* ContentView.swift */; };
 		F65849142970741D00BCE68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65849132970741D00BCE68A /* Assets.xcassets */; };
 		F65849172970741D00BCE68A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65849162970741D00BCE68A /* Preview Assets.xcassets */; };
 		F65849212970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849202970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsTests.swift */; };
 		F658492B2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658492A2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITests.swift */; };
 		F658492D2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658492C2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITestsLaunchTests.swift */; };
+		F658493B2970743F00BCE68A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658493A2970743F00BCE68A /* Endpoint.swift */; };
+		F658493D2970745C00BCE68A /* NYCEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658493C2970745C00BCE68A /* NYCEndpoint.swift */; };
+		F658493F2970747C00BCE68A /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658493E2970747C00BCE68A /* NetworkEngine.swift */; };
+		F6584942297074A000BCE68A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6584941297074A000BCE68A /* NetworkError.swift */; };
+		F6584945297074BE00BCE68A /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6584944297074BE00BCE68A /* School.swift */; };
+		F65849492970752B00BCE68A /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849482970752B00BCE68A /* SchoolView.swift */; };
+		F658494B2970753800BCE68A /* SchoolVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658494A2970753800BCE68A /* SchoolVM.swift */; };
+		F658494D297076BA00BCE68A /* SatScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658494C297076BA00BCE68A /* SatScore.swift */; };
+		F658495029707E8B00BCE68A /* SchoolComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658494F29707E8B00BCE68A /* SchoolComponent.swift */; };
+		F65849552970893300BCE68A /* SATView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849542970893300BCE68A /* SATView.swift */; };
+		F658495829708C3B00BCE68A /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658495729708C3B00BCE68A /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		F658490C2970741B00BCE68A /* 20230112-TorneliusBroadwaterJr-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230112-TorneliusBroadwaterJr-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658490F2970741B00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift; sourceTree = "<group>"; };
-		F65849112970741B00BCE68A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F65849132970741D00BCE68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65849162970741D00BCE68A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F658491C2970741E00BCE68A /* 20230112-TorneliusBroadwaterJr-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230112-TorneliusBroadwaterJr-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		F65849262970741E00BCE68A /* 20230112-TorneliusBroadwaterJr-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230112-TorneliusBroadwaterJr-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658492A2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230112_TorneliusBroadwaterJr_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		F658492C2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230112_TorneliusBroadwaterJr_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F658493A2970743F00BCE68A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F658493C2970745C00BCE68A /* NYCEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCEndpoint.swift; sourceTree = "<group>"; };
+		F658493E2970747C00BCE68A /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		F6584941297074A000BCE68A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F6584944297074BE00BCE68A /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		F65849482970752B00BCE68A /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
+		F658494A2970753800BCE68A /* SchoolVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolVM.swift; sourceTree = "<group>"; };
+		F658494C297076BA00BCE68A /* SatScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatScore.swift; sourceTree = "<group>"; };
+		F658494F29707E8B00BCE68A /* SchoolComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolComponent.swift; sourceTree = "<group>"; };
+		F65849542970893300BCE68A /* SATView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATView.swift; sourceTree = "<group>"; };
+		F658495729708C3B00BCE68A /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				F658490F2970741B00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift */,
-				F65849112970741B00BCE68A /* ContentView.swift */,
+				F65849392970742C00BCE68A /* Networking */,
+				F65849402970749000BCE68A /* Model */,
+				F65849462970750200BCE68A /* Views */,
+				F658494E29707E7000BCE68A /* Component */,
+				F658495629708C1100BCE68A /* Styles */,
 				F65849132970741D00BCE68A /* Assets.xcassets */,
 				F65849152970741D00BCE68A /* Preview Content */,
 			);
@@ -125,6 +149,68 @@
 				F658492C2970741E00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsUITestsLaunchTests.swift */,
 			);
 			path = "20230112-TorneliusBroadwaterJr-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		F65849392970742C00BCE68A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F658493E2970747C00BCE68A /* NetworkEngine.swift */,
+				F658493C2970745C00BCE68A /* NYCEndpoint.swift */,
+				F658493A2970743F00BCE68A /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F65849402970749000BCE68A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6584944297074BE00BCE68A /* School.swift */,
+				F658494C297076BA00BCE68A /* SatScore.swift */,
+				F6584941297074A000BCE68A /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F65849462970750200BCE68A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F65849472970750F00BCE68A /* SchoolView */,
+				F65849512970848D00BCE68A /* SATView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F65849472970750F00BCE68A /* SchoolView */ = {
+			isa = PBXGroup;
+			children = (
+				F658494A2970753800BCE68A /* SchoolVM.swift */,
+				F65849482970752B00BCE68A /* SchoolView.swift */,
+			);
+			path = SchoolView;
+			sourceTree = "<group>";
+		};
+		F658494E29707E7000BCE68A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F658494F29707E8B00BCE68A /* SchoolComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F65849512970848D00BCE68A /* SATView */ = {
+			isa = PBXGroup;
+			children = (
+				F65849542970893300BCE68A /* SATView.swift */,
+			);
+			path = SATView;
+			sourceTree = "<group>";
+		};
+		F658495629708C1100BCE68A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F658495729708C3B00BCE68A /* Modifiers.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65849122970741B00BCE68A /* ContentView.swift in Sources */,
+				F6584945297074BE00BCE68A /* School.swift in Sources */,
+				F65849492970752B00BCE68A /* SchoolView.swift in Sources */,
+				F658494D297076BA00BCE68A /* SatScore.swift in Sources */,
+				F658493F2970747C00BCE68A /* NetworkEngine.swift in Sources */,
+				F658495829708C3B00BCE68A /* Modifiers.swift in Sources */,
+				F658493B2970743F00BCE68A /* Endpoint.swift in Sources */,
+				F658495029707E8B00BCE68A /* SchoolComponent.swift in Sources */,
+				F65849552970893300BCE68A /* SATView.swift in Sources */,
+				F658494B2970753800BCE68A /* SchoolVM.swift in Sources */,
+				F6584942297074A000BCE68A /* NetworkError.swift in Sources */,
 				F65849102970741B00BCE68A /* _0230112_TorneliusBroadwaterJr_NYCSchoolsApp.swift in Sources */,
+				F658493D2970745C00BCE68A /* NYCEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

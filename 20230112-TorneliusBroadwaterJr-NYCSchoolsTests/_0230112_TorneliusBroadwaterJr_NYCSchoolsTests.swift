@@ -8,6 +8,9 @@
 import XCTest
 @testable import _0230112_TorneliusBroadwaterJr_NYCSchools
 
+
+    // If given more time I would of created test for the Network call
+
 final class _0230112_TorneliusBroadwaterJr_NYCSchoolsTests: XCTestCase {
 
     override func setUpWithError() throws {

@@ -11,7 +11,7 @@ import SwiftUI
 struct _0230112_TorneliusBroadwaterJr_NYCSchoolsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SchoolView()
         }
     }
 }
